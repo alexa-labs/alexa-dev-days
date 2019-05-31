@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "premium-greetings",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Premium Greetings",
+        "summary": "Tired of your boring 'hello'? Let's turn it up a notch with premium greetings!",
+        "description": "Premium greetings is an example of using In Skill Purchases with Alexa Skills. By purchasing premium greetings, your skill can say 'hello' with more pizzazz.",
+        "smallIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/h_blue_small.png",
+        "largeIconUri": "https://github.com/alexa/skill-sample-nodejs-fact-in-skill-purchases/raw/master/isps.samples/h_blue_large.png",
+        "examplePhrases": [
+          "'Alexa, buy premium greetings'"
+        ],
+        "keywords": [
+          "hello",
+          "premium hello",
+          "cool hello"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Make your day with Premium greetings!",
+          "boughtCardDescription": "Thank you for purchasing Premium Greetings!"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-07-01T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      }
+    }
+  },
+  "testingInstructions": "Say Buy It Now to begin the purchase flow.",
+  "purchasableState": "PURCHASABLE"
+}
